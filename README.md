@@ -1,1 +1,0 @@
-# hirshjp.github.io
