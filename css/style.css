@@ -439,9 +439,9 @@ input:focus{box-shadow:none !important;outline:0;border:1px solid #10a7ed !impor
 .s7{background:#181a21}
 .s7-pattern{padding:80px 0px 0px 0px;border-top:1px solid #101116;}
 .s7-title-container{padding:0px 15px 60px 15px;}
-.s7-title-big{font-size:42px;color:#ffffff;}
-.s7-title-big h2{font-size:42px;color:#ffffff;font-weight:300;}
-.s7-title-small{padding:5px 0px 0px 0px;color:#99a0b5;font-size:18px;font-weight:500;line-height:26px;}
+.s7-title-big{font-size:42px;color:#3E89F9;}
+.s7-title-big h2{font-size:42px;color:#3E89F9;font-weight:300;}
+.s7-title-small{padding:5px 0px 0px 0px;color:#99a0b5;font-size:30px;font-weight:500;line-height:26px;}
 .s7-title-small span{color:#d3d7e4;}
 
 
