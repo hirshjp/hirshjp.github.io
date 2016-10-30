@@ -67,8 +67,9 @@ function video_bg(){
 
 	$(".s1").vide({
 	    mp4: 'video/background.mp4',
+			webm: 'video/background.webm',
 	    //poster if video can't be played on mobile
-	    poster: 'img/poster/poster1.jpg'
+	    poster: 'video/background.png'
 	}, {
 		muted: true,
 		loop: true,

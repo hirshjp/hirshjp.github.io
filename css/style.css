@@ -116,7 +116,7 @@ input:focus{box-shadow:none !important;outline:0;border:1px solid #10a7ed !impor
 
 
 /* change right menu bootstrap button behavior - visible in small resolutions */
-.navbar-header .navbar-toggle  {margin-right:25px !important;}
+.navbar-header .navbar-toggle  {margin-left:25px !important;}
 .navbar-default .navbar-toggle {border-color:#0065ff !important;border-radius:0 !important;}
 .navbar-default .navbar-toggle .icon-bar{background-color:#0065ff !important;}
 .navbar-default .navbar-toggle:hover{background:transparent !important}
@@ -544,8 +544,10 @@ input:focus{box-shadow:none !important;outline:0;border:1px solid #10a7ed !impor
 .s13-title-container{padding:0px 15px 60px 15px;}
 .s13-title-big{font-size:42px;color:#ffffff;}
 .s13-title-big h2{font-size:42px;color:#ffffff;font-weight:300;}
-.s13-title-small{padding:5px 0px 0px 0px;color:#99a0b5;font-size:18px;font-weight:500;line-height:26px;}
+.s13-title-small{padding:10px 0px 0px 0px;color:#d3d7e4;font-size:30px;font-weight:500;line-height:26px;}
 .s13-title-small span{color:#d3d7e4;}
+.s13-title-other{padding:55px 0px 0px 0px;color:#3E89F9;font-size:30px;font-weight:500;line-height:45px;}
+.s13-title-other span{color:#3E89F9;}
 
 /* SECTION CONTENT */
 .s14{background:#181a21;}
