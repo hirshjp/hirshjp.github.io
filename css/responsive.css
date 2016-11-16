@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1200px) {
+  h2 { font-size: 70px; margin-bottom: 30px; }
+  h2 .subtitle { font-size: 35px; }
+  .about_text { padding-top: 30px; margin-top: 30px; }
+  .menu_box { padding-left: 55px; }
+}
+
+@media only screen and (max-width: 992px) {
+  body { min-width: 768px; }
+  .section_inner { padding: 30px 0px; }
+  .about_btn { padding-top: 30px; }
+  .menu_slider:not(:last-child) { margin-bottom: 30px; }
+  .menu_slider { margin-top: 30px; }
+  .menu_list li:not(:last-child) { margin-bottom: 10px; }
+  .contact_address { margin-top: 30px; }
+  .contact_info:not(:last-child) { margin-bottom: 30px; }
+}
+
+@media only screen and (max-width: 767px) {
+  body, html { height: auto; overflow: visible; }
+  body { min-width: 420px; font-size: 14px; line-height: 1.4; }
+  [class*="col-"]:not(:last-child) { margin-bottom: 30px; }
+  .xs_dnone { display: none ! important; }
+  .section .animate_el { opacity: 1; visibility: visible; transform: translate(0px, 0px); }
+  .section_inner { padding-top: 55px; }
+  .subtitle { font-size: 18px; line-height: 1.35; }
+  h2 { font-size: 40px; margin-bottom: 20px; }
+  h2 .subtitle { font-size: 20px; }
+  .btn { font-size: 18px; }
+  .btn::before { margin-top: -7px; width: 20px; height: 20px; line-height: 16px; }
+  .menu_btn { text-align: center; }
+  .menu_btn > * { float: none; margin: 0px 10px 15px; }
+  .btn_type1.big { font-size: 14px; padding: 10px 15px 12px; min-width: 135px; }
+  .menu_box { padding-left: 0px; }
+  .menu_slider { margin: 0px; }
+  .owl-nav > div { width: 10px; height: 20px; margin-top: -10px; left: 0px; }
+  .owl-nav > div.owl-next { left: auto; right: 0px; }
+  .owl-nav > div::before { width: 20px; height: 20px; margin-top: -10px; }
+  .menu_title { font-size: 18px; line-height: 1.3; }
+  .menu_list li { font-size: 14px; line-height: 1.3; padding-right: 60px; }
+  .menu_price { font-size: 18px; line-height: 1.3; }
+  [class*="form_col"] { float: none; width: auto; }
+  [class*="form_col"]:not(:last-child) { margin-bottom: 10px; }
+  .form_btn { margin-top: 10px; }
+  .label_animation { display: none; }
+  #nav.opened .navigation {
+	 background-color: rgba(0, 0, 0, 0.7);
+	 transform: translate(10px, 0px);
+}
+}
+
+@media only screen and (max-width: 479px) {
+  body { min-width: 300px; }
+  #nav.opened .navigation {
+	 background-color: rgba(0, 0, 0, 0.7);
+	 transform: translate(10px, 0px);
+	.footer-widget-social ul {
+     list-style-type: none;
+     margin-top: -167px;	 
+     text-align: right;
+}
+
+#footer-widget-social {
+     display: none;     
+
+}
+}
